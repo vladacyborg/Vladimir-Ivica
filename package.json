@@ -1,0 +1,20 @@
+{
+  "name": "anketa",
+  "version": "1.0.0",
+  "description": "Web aplikacija za anketu",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladacyborg/Vladimir-Ivica"
+  },
+  "author": "Vladimir Milovanovic, Ivica Nikolic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladacyborg/Vladimir-Ivica/issues"
+  },
+  "homepage": "https://github.com/vladacyborg/Vladimir-Ivica#readme"
+}
