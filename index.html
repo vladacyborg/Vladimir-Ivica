@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Anketa</title>
+<link href="stil.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="stil.js"></script>
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="header">
+			<h1> Anketa </h1>
+		</div>
+        
+		<div id="content">
+			<form method="POST" id="forma">
+			<table  width="20%" height="30%"  bgcolor="#CCC" align="center">
+
+			    <tr >        
+			        <td colspan=3 >
+			        <font size=3><center><b>ANKETA</b></center>        
+			    </tr>
+				<tr>
+			        <td width="30" valign="middle">Pol:</td>
+			          <td><select id="pol" name="pol" type="text" onchange="";>
+			              <option selected="selected" value="">-Izaberi-</option>
+			              <option value="Muški">M</option>
+			              <option value="Ženski">Ž</option>
+			            </select></td>
+			        </tr> 
+
+			    <tr>
+			        <td width="30%">Koliko imate godina:<br/></td>
+			        <td><input id="godine" name="godine" type="text" size=20 maxlength=40 ></td>
+			    </tr>
+			    <tr>
+			        <td width="30%">Email adresa:<br/></td>
+			        <td><input id="email" name="email" type="email" size=20 maxlength=20></td>
+			    </tr>
+			    <tr>
+			        <td width="30%">Koliko dugo trenirate:<br/></td>
+			        <td><input id="trening" name="trening" type="text" size=20 maxlength=40></td>
+			    </tr>
+			    <tr>
+			        <td width="30%">Omiljena vezba:<br/></td>
+			        <td><input id="vezba" name="vezba" type="text" size=20 maxlength=40></td>
+			    </tr>
+				
+			        <td width="30" valign="middle">Izaberi zemlju :</td>
+			          <td><select id="zemlja" name="zemlja" type="text" onchange="";>
+			              <option selected="selected" value="">-Izaberi-</option>
+			              <option value="Srbija">Srbija</option>
+			              <option value="Crna Gora">Crna Gora</option>
+			              <option value="Makedonija">Makedonija</option>
+			              <option value="Hrvatska">Hrvatska</option>
+			              <option value="Bosna i Hercegovina">Bosna i Hercegovina</option>
+			              <option value="Slovenija">Slovenija</option>            
+			            </select></td>
+			        </tr>
+			    <tr>
+			        <td width="30%">Način ishrane:<br/></td>
+			                  <td><select id="ishrana" name="ishrana" type="text" onchange="";>
+			              <option selected="selected" value="">-Izaberi-</option>
+			              <option value="Vegan">Vegan</option>
+			              <option value="Vegetarijanac">Vegetarijanac</option>
+			              <option value="Ostalo">Ostalo</option>
+			            </select></td>
+			    </tr> 
+			    <tr>
+			        <td width="30%">Broj telefona (opciono):<br/></td>
+			        <td><input id="telefon" name="telefon" type="text" size=25 maxlength=10></td>
+			    </tr>
+			    <tr>
+			        <td ><input type="Reset" >
+			        <td ><input type="submit" id="Send" value="Send"> 		    
+
+            </tr>
+
+			</table>
+			</form>
+	  </div>
+		<div id="ankete">
+			#ankete#
+		</div>
+		<div id="footer">
+             <p>Vlada</p>
+		</div>
+        </div>
+</body>
+</html>
+
+
+

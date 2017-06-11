@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 1em;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-image: url(background.jpg);
+	background-size: 100%;
+ }	
+ h1, h2, h3, h4, h5, h6, p{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+	color: #555;
+}
+a:hover {
+  color: #F00;
+  background-color: transparent;
+}
+#container{
+	width: 680px;
+	height: auto;
+	margin: auto;
+	padding: 0.5em;
+	border: 1px solid #333333; 
+	background-color: #fcfcfc;
+	text-align: left;
+}
+#header{
+	height: 115px;
+	margin: 0 0 0.5em 0;
+	padding: 1em;
+	border: 1px solid #333333;
+	background: #fff ;
+    word-spacing:10px;
+}
+#header h1{
+	margin: 0;
+	padding: 0 0 0 230px;
+	font-size: 38px;
+	color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#content{
+	float: left;
+	margin: 0 0 0 0.5em;
+	padding:0 0.5em 0 0.5em;
+	width: 500px;
+	border-left: 1px solid #333333;
+}
+#content h2{
+	background-color: #CCC;
+	border: 2px solid #333333;
+	text-indent: 0.5em;
+	font-size: 16px;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 2px;
+}
+#content p{
+	margin: 0.5em;
+	padding: 0;
+	font-size: 14px;
+}
+#ankete{
+	float: left;
+	margin: 0 0 0 0.5em;
+	padding:0 0.5em 0 0.5em;
+	width: 500px;
+	border-left: 1px solid #333333;
+}
+#footer{
+	clear: both;
+	text-align: center;
+	height: 220px;
+	margin: 0;
+	padding: 0;
+	background-color: #CCC;
+	border: 1px solid #333333;
+}
+#footer p{
+	margin: 1em;
+	padding: 0;
+}
